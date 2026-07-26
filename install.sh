@@ -135,8 +135,8 @@ install_XrayR() {
     #     fi
     # fi
 
-    unzip XrayR-linux.zip
-    rm XrayR-linux.zip -f
+    # unzip XrayR-linux.zip
+    # rm XrayR-linux.zip -f
     chmod +x XrayR
     mkdir /etc/XrayR/ -p
     rm /etc/systemd/system/XrayR.service -f
