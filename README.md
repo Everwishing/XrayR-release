@@ -6,25 +6,9 @@ A Xray backend framework that can easily support many panels.
 
 Find the source code here: [13wl6/XrayR](https://github.com/13wl6/XrayR)
 
-# 详细使用教程
-
-[教程](https://xrayr-project.github.io/XrayR-doc/)
 
 # 一键安装
 
 ```
-bash <(curl -Ls https://raw.githubusercontent.com/13wl6/XrayR-release/master/install.sh)
-```
-
-# Docker 一键启动
-
-```
-docker run -d   --name xrayr   --network host   --restart always  \
-  -e ApiHost=your_api_host  \
-  -e ApiKey=your_api_key  \
-  -e NodeID=1  \
-  -e NodeType=Vless  \
-  -e EnableREALITY=true  \
-  ghcr.io/13wl6/xrayr:latest
-
+bash <(curl -Ls https://raw.githubusercontent.com/everwishing/XrayR-release/master/install.sh)
 ```
